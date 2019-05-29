@@ -4,7 +4,7 @@
 Project-4
 
 ## Goal
-To build a full-stack application with a backend and front-end by using a Python Flask API and serving data from a Postgres database.
+To build a full-stack application with a backend and front-end by using a Python Flask API and serving data from a Postgres database. I worked with another student to create the app.
 
 ## About WellNest - An Overview
 
@@ -34,12 +34,12 @@ https://wellnest-mh.herokuapp.com/
 
 ## Process
 ### Home
-  Users can access to the news, search functionality and the tweets on the home page without registering to the website. The titles of the blogs latest 20 blogs are visible on the home page, however to view a blog, the user must be registered to the website.
+  Users can access to the news, search functionality and the tweets on the home page without registering to the website. The titles of the blogs latest 20 blogs are visible on the home page, however to view a blog, the user must be registered to the website. The users can search for primary cares, hospitals and healthcare professionals by using the search function
 ![](src/assets/screenshots/home.png)
 
 ### News Page
 This is how the news page looks when the user clicks to read an article on the home page.
-![](src/assets/screenshots/news-page.png)
+![](src/assets/screenshots/news.png)
 
 ### Register
 Users can register to the website by clicking "register" on the navbar. Username and the email must be unique to be able to register to the website.
@@ -51,15 +51,15 @@ Once registered, users can log in to the website.
 ![](src/assets/screenshots/login.png)
 
 ### Users' profile
-Once logged-in, the users are allowed to create their own profile page. They can add a profile photo. I used filestack for this function. They can update their "about-me" section. They will be able to view their favourite blogs(currently hard coded in). They will also be able to share their own tweets on their page if they want(currently showing the twitter page of the website).
+Once logged-in, the users are allowed to create their own profile page. They can add a profile photo. We used filestack for this function. They can update their "about-me" section. They will be able to view their favourite blogs(currently hard coded in). They will also be able to share their own tweets on their page if they want(currently showing the twitter page of the website).
 ![](src/assets/screenshots/my-profile.png)
 
 ### Create a blog
-Once logged-in, the users can create a blog via their profile page. When "create a blog" button is clicked, the users will be navigated to the "create your blog" page. Here they can create a new blog. Once a blog is created and submitted, it will come up in the home page as well as users own profile.
+Once logged-in, the users can create a blog via their profile page. When "create a blog" button is clicked, the users will be navigated to the "create your blog" page. Here they can create a new blog. Once a blog is created and submitted, it will come up on the home page as well as users own profile.
 ![](src/assets/screenshots/create-a-blog.png)
 
 ### Edit a blog
-Users can edit their own blogs if they click the "edit" button for each blog. This will navigate the website to the "edit your blog" page which will populate the previous data from the blog. Only the owner of the blogs can edit/delete their blogs.
+Users can edit their own blogs if they click the "edit" button for each blog. This will navigate the website to the "edit your blog" page which will populate the previous data from the blog. Only the owner of the blogs can edit and delete their blogs.
 ![](src/assets/screenshots/edit-blog.png)
 
 ### View a blog
@@ -133,5 +133,5 @@ export default News
 ## Future Features
 * Add a like button for the articles. Whenever a user likes an article, this article will populate in their "favourite articles" section on their profile page.
 Favourite articles are currently hard coded in.
-* Add a search button to the blogs at home page, as it is limited to show the latest 20 blogs.
+* Add a search functionality to the blogs on home page, as it is limited to show the latest 20 blogs.
 * Add "written by" into "view a blog" page.
