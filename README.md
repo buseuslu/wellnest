@@ -1,6 +1,10 @@
 # WellNest
 
 ## WDI Project 4 ![ga_cog_large_red_rgb](https://cloud.githubusercontent.com/assets/40461/8183776/469f976e-1432-11e5-8199-6ac91363302b.png)
+Project-4
+
+## Goal
+To build a full-stack application with a backend and front-end by using a Python Flask API and serving data from a Postgres database.
 
 ## About WellNest - An Overview
 
@@ -42,7 +46,6 @@ Users can register to the website by clicking "register" on the navbar. Username
 
 ![](src/assets/screenshots/register.png)
 
-
 ### Login
 Once registered, users can log in to the website.
 ![](src/assets/screenshots/login.png)
@@ -67,7 +70,7 @@ Users can view other users' profile pages and blogs if they are logged-in. They 
 This is how others profile look like. Only the owner of that profile page can update their "about-me" section, can edit and delete their blogs. Other users are only allowed to comment and to delete their own comments from other blogs.
 ![](src/assets/screenshots/view-other-profiles.png)
 
-## Challenges
+## Challenges
 * Getting the news article as a text in a different route. The news article was written in HTML in the API. Managed to to change this into text.
 * Search functionality at home page.
 
